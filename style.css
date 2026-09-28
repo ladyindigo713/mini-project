@@ -1,0 +1,20 @@
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #edf1fe;
+  color: #1a234d;
+}
+
+a{
+  color: #1a234d;
+  font-size: 20px;
+font-weight: 300;
+font-underline-offset: 4px ;
+
+}
+
