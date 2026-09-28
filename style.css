@@ -20,7 +20,7 @@ a{
   color: #1a234d;
   font-size: 20px;
 font-weight: 300;
-font-underline-offset: 4px ;
+text-underline-offset: 4px;
 text-decoration-thickness: 2px;
 
 }
