@@ -1,11 +1,11 @@
   /* font-family: "Space Mono", monospace;*/
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap");
 
  * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
     font-family: "Manrope", sans-serif;
-    font-weight: 500;
  }
 
 body {
@@ -72,4 +72,24 @@ justify-content: space-between;
   font-size: 20px;
   font-weight: 200;
   color: #1a234d;
+}
+
+.logo__text b {
+  font-weight: 700;
+}
+
+/* 
+
+HEADER
+
+*/
+
+header {
+  width: 100%;
+  margin:0 auto;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
 }
