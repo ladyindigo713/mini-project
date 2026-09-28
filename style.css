@@ -21,7 +21,7 @@ a{
   font-size: 20px;
 font-weight: 300;
 font-underline-offset: 4px ;
-text-decoration thickness: 2px;
+text-decoration-thickness: 2px;
 
 }
 
@@ -38,5 +38,38 @@ li{
 
 h1 {
 font-size: 60px;
+}
 
+
+/* 
+
+NAV
+
+*/
+
+nav{
+  height: 60px;
+  display: flex;
+justify-content: space-between;
+  align-items: center;
+  padding: 08px 24px 12px;
+  background-color: white;
+}
+
+.logo{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.logo__img{
+  width: 40px
+  margin-top: 4px;
+  height: 40px;
+}
+
+.logo__text{
+  font-size: 20px;
+  font-weight: 200;
+  color: #1a234d;
 }
