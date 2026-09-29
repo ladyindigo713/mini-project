@@ -1,12 +1,11 @@
-  /* font-family: "Space Mono", monospace;*/
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap");
 
- * {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-    font-family: "Manrope", sans-serif;
- }
+  font-family: "Manrope", sans-serif;
+}
 
 body {
   background-color: #edf1fe;
@@ -16,30 +15,27 @@ body {
   list-style: none;
 }
 
-a{
+a {
   color: #1a234d;
   font-size: 20px;
-font-weight: 300;
-text-underline-offset: 4px;
-text-decoration-thickness: 2px;
-
+  font-weight: 300;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
 }
 
-ul{
+ul {
   display: flex;
-
 }
 
-li{
- list-style: none;
+li {
+  list-style: none;
   margin-right: 20px;
   padding-left: 16px;
 }
 
 h1 {
-font-size: 60px;
+  font-size: 60px;
 }
-
 
 /* 
 
@@ -47,28 +43,28 @@ NAV
 
 */
 
-nav{
+nav {
   height: 60px;
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
   align-items: center;
   padding: 08px 24px 12px;
   background-color: white;
 }
 
-.logo{
+.logo {
   display: flex;
   gap: 4px;
   align-items: center;
 }
 
-.logo__img{
+.logo__img {
   width: 40px;
   margin-top: 4px;
   height: 40px;
 }
 
-.logo__text{
+.logo__text {
   font-size: 20px;
   font-weight: 200;
   color: #1a234d;
@@ -86,10 +82,51 @@ HEADER
 
 header {
   width: 100%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .row {
   width: 100%;
   max-width: 1200px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-right: 8px;
+}
+
+.row__course {
+border-left: 1px dashed #cbd5e1;
+}
+
+.course {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  margin-left: 40px;
+  gap: 20px;
+  align-items: center;
+  padding: 8px 0px;
+}
+
+.course__icon {
+font-size: 80px;
+}
+
+.course__text {
+padding: 20px;  
+}
+
+.course__selection {
+font-family: "Space Mono", monospace;
+font-weight: bold;
+color: #727892
+letter-spacing; 0.1px;
+}
+
+.course__title {
+font-weight: 600;
+font-size: 44px;
+margin-left: 32px;
+letter-spacing: 2px;
 }
