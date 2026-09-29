@@ -37,6 +37,10 @@ h1 {
   font-size: 60px;
 }
 
+img {
+  width: 100% ;
+}
+
 /* 
 
 NAV
@@ -130,3 +134,35 @@ font-size: 28px;
 margin-left: 0px;
 letter-spacing: 2px;
 }
+
+.hero {
+border: 1.5 px solid #cbd5e1;
+border-right: 20px solid #badcee;
+border-radius: 0 16px 16px 0;
+padding:40px;
+box-shadow:4px 4px 10px rgb(0,0,0,0.1);
+width: 100% ;
+max-width: 1200px;
+margin: 0 auto;
+margin-bottom: 30px;
+display:flex;
+align-items: center;
+justify-content: center;
+background-color: #fefefe;
+}
+
+.hero__img--wrapper {
+  max-width: 540px;
+}
+
+.hero__description {
+  margin-left: 60px;
+}
+
+.sub-header {
+  font-size: 20 px;
+margin: 16px 0 24px 0;
+font-weight: 400;
+color:#64748b;
+}
+
