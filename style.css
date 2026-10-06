@@ -178,3 +178,30 @@ border-radius: 10px;
 font-family: "Space Mono", monospace;
 margin: 0 auto;
 }
+
+/*
+
+ABOUT
+SOCIAL
+ 
+*/
+
+#about,
+#social {
+  padding: 24px 0;
+  Width: 100%;
+  Max-width: 1200px;
+margin: 0 auto;
+}
+
+.section__card {
+  border: 1.5px dashed #cbd5e1;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 8px 0px;
+  max-width: 1200px;
+  flex-direction: column;
+  justify-content: center;
+
+}
