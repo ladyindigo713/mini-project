@@ -211,7 +211,7 @@ margin: 0 auto;
 }
 
 .section__card--about {
-  background-color:  #ffeaaf
+  background-color:  #ffeaaf ;
   border-radius: 0 16px 16px 0;
     border-right: 20px solid #badcee;
 }
