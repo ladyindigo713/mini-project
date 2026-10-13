@@ -226,6 +226,13 @@ border-radius: 0 16px 16px 0;
   align-items: center;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
 .about__row {
   justify-content: start;
 }
