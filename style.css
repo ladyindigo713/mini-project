@@ -207,15 +207,18 @@ margin: 0 auto;
   max-width: 1200px;
   flex-direction: column;
   justify-content: center;
-
+border-radius: 0 16px 16px 0;
 }
 
 .section__card--about {
   background-color:  #ffeaaf ;
-  border-radius: 0 16px 16px 0;
     border-right: 20px solid #badcee;
 }
 
+.section__card--social {
+  background-color: #badcee;
+  border-right: 20px solid #ef4810;
+}
 
 .section__description {
   display: flex;
@@ -225,4 +228,27 @@ margin: 0 auto;
 
 .about__row {
   justify-content: start;
+}
+
+.section__title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-family: "Space Mono", monospace;
+}
+
+.section__img--wrapper {
+width: 60%;
+padding: 0 24px;
+}
+
+.section__description--wrapper {
+  width: 70%;
+  padding: 0 24px;
+}
+
+.section__description--para {
+font-size: 24px;
+line-height: 1.5;
+margine-bottom: 24px;
 }
