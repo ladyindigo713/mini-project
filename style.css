@@ -225,8 +225,13 @@ border-radius: 0 16px 16px 0;
   justify-content: center;
   align-items: center;
 }
+.contact__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-form {
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -258,4 +263,36 @@ padding: 0 24px;
 font-size: 24px;
 line-height: 1.5;
 margine-bottom: 24px;
+}
+
+/*
+
+CONTACT
+
+*/
+
+.section__card--contact {
+ width: 96%;
+  border: 1.5px dashed #c231c2;
+  border-radius: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+input, textarea {
+  margin-bottom: 24px;
+  width: 500px;
+  padding: 6px 12px;
+  border: 1px solid #c231c2;
+  border-radius: 6px;
+  font-size: 20px;
 }
