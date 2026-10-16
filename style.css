@@ -386,3 +386,7 @@ h1{
 .section__description--wrapper {
     width: 100%;
 }
+
+  input, textarea {
+    width: 400px;
+  }
