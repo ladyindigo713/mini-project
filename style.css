@@ -264,7 +264,7 @@ padding: 0 24px;
 .section__description--para {
 font-size: 24px;
 line-height: 1.5;
-margine-bottom: 24px;
+margin-bottom: 24px;
 }
 
 /*
@@ -333,4 +333,56 @@ footer {
   text-decoration: none;
   font-size: 20px;
   padding: 0 16px;
+}
+
+/*
+
+RESPONSIVENESS
+
+*/
+
+/*
+
+SMALLER SCREENS
+
+*/
+
+
+@media (max-width: 1024px) {
+  .section__description--para {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  a {
+    font-size: 16px;
+  }
+.course {
+    gap: 4px;
+}
+.course__title {
+    margin-left: 0;
+font-size: 40px;
+}
+.hero {
+    flex-direction: column;
+}
+.hero__wrapper {
+    max-width: 500px;
+}
+
+.hero__description {
+    margin-left: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.section__description {
+    flex-direction: column;
+}
+.section__description--wrapper {
+    width: 100%;
 }
